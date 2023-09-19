@@ -1,0 +1,211 @@
+2023-09-19 19:26:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m10[0m:[93m10[0m - [91merror[0m[90m TS1442: [0mExpected '=' for property initializer.
+
+[7m10[0m   static tableName = 'users'; // database table name
+[7m  [0m [91m         ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m10[0m:[93m10[0m - [91merror[0m[90m TS1442: [0mExpected '=' for property initializer.
+
+[7m10[0m   static tableName = 'users'; // database table name
+[7m  [0m [91m         ~~~~~~~~~[0m
+
+    at createTSError (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+2023-09-19 19:26:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m10[0m:[93m10[0m - [91merror[0m[90m TS1442: [0mExpected '=' for property initializer.
+
+[7m10[0m   static tableName = 'users'; // database table name
+[7m  [0m [91m         ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m10[0m:[93m10[0m - [91merror[0m[90m TS1442: [0mExpected '=' for property initializer.
+
+[7m10[0m   static tableName = 'users'; // database table name
+[7m  [0m [91m         ~~~~~~~~~[0m
+
+    at createTSError (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+2023-09-19 20:07:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m52[0m:[93m21[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m52[0m     await UserModel.;
+[7m  [0m [91m                    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m52[0m:[93m21[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m52[0m     await UserModel.;
+[7m  [0m [91m                    ~[0m
+
+    at createTSError (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+2023-09-19 20:28:10 error: [POST] /signup >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters
+2023-09-19 20:29:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m72[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m       res.status(200).json({ data: findUser, message: 'login', token:  });
+[7m  [0m [91m                                                                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m72[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m       res.status(200).json({ data: findUser, message: 'login', token:  });
+[7m  [0m [91m                                                                       ~[0m
+
+    at createTSError (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+2023-09-19 20:31:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m52[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m52[0m     const await UserModel.raw(`UPDATE users SET status = 'inactive' WHERE userId = `, userId);
+[7m  [0m [91m                ~~~~~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m52[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m52[0m     const await UserModel.raw(`UPDATE users SET status = 'inactive' WHERE userId = `, userId);
+[7m  [0m [91m                         ~[0m
+[96msrc/services/users.service.ts[0m:[93m52[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m52[0m     const await UserModel.raw(`UPDATE users SET status = 'inactive' WHERE userId = `, userId);
+[7m  [0m [91m                             ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m52[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m52[0m     const await UserModel.raw(`UPDATE users SET status = 'inactive' WHERE userId = `, userId);
+[7m  [0m [91m                ~~~~~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m52[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m52[0m     const await UserModel.raw(`UPDATE users SET status = 'inactive' WHERE userId = `, userId);
+[7m  [0m [91m                         ~[0m
+[96msrc/services/users.service.ts[0m:[93m52[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m52[0m     const await UserModel.raw(`UPDATE users SET status = 'inactive' WHERE userId = `, userId);
+[7m  [0m [91m                             ~[0m
+
+    at createTSError (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+2023-09-19 20:41:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m53[0m:[93m22[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m53[0m                     .;
+[7m  [0m [91m                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m53[0m:[93m22[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m53[0m                     .;
+[7m  [0m [91m                     ~[0m
+
+    at createTSError (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+2023-09-19 20:41:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m53[0m:[93m50[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m53[0m                     .update({statue: 'inactive});
+[7m  [0m [91m                                                 [0m
+[96msrc/services/users.service.ts[0m:[93m55[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m55[0m     return findUser;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m55[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m55[0m     return findUser;
+[7m  [0m [91m           ~~~~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m55[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m55[0m     return findUser;
+[7m  [0m [91m                   ~[0m
+[96msrc/services/users.service.ts[0m:[93m57[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m57[0m }
+[7m  [0m [91m~[0m
+[96msrc/services/users.service.ts[0m:[93m58[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m58[0m 
+[7m  [0m [91m[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m53[0m:[93m50[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m53[0m                     .update({statue: 'inactive});
+[7m  [0m [91m                                                 [0m
+[96msrc/services/users.service.ts[0m:[93m55[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m55[0m     return findUser;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m55[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m55[0m     return findUser;
+[7m  [0m [91m           ~~~~~~~~[0m
+[96msrc/services/users.service.ts[0m:[93m55[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m55[0m     return findUser;
+[7m  [0m [91m                   ~[0m
+[96msrc/services/users.service.ts[0m:[93m57[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m57[0m }
+[7m  [0m [91m~[0m
+[96msrc/services/users.service.ts[0m:[93m58[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m58[0m 
+[7m  [0m [91m[0m
+
+    at createTSError (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/zemanisteragues/Desktop/vinu/SHI/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)

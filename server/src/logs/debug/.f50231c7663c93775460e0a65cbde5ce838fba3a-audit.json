@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/zemanisteragues/Desktop/vinu/SHI/server/src/logs/debug/.f50231c7663c93775460e0a65cbde5ce838fba3a-audit.json",
+    "files": [
+        {
+            "date": 1695131759150,
+            "name": "/Users/zemanisteragues/Desktop/vinu/SHI/server/src/logs/debug/2023-09-19.log",
+            "hash": "c9fc3f8478a21163477f68b6a01a1e617e92e2a47eee0d8ed6d31aafe402e856"
+        }
+    ],
+    "hashType": "sha256"
+}
