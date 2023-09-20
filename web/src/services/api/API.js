@@ -1,9 +1,9 @@
 import axios from "axios";
 
-const token = localStorage.getItem("TOKEN");
+const token = localStorage.getItem("userAuth");
 
 export const UnauthenticatedAPI = axios.create({
-  baseURL: `${import.meta.env.VITE_BACKEND_URL}/api/v1`,
+  baseURL: `${import.meta.env.VITE_BACKEND_URL}`,
   timeout: 10000,
   headers: {
     common: {
@@ -13,7 +13,7 @@ export const UnauthenticatedAPI = axios.create({
 });
 
 const API = axios.create({
-  baseURL: `${import.meta.env.VITE_BACKEND_URL}/api/v1`,
+  baseURL: `${import.meta.env.VITE_BACKEND_URL}`,
   timeout: 10000,
   headers: {
     common: {
@@ -32,5 +32,9 @@ API.interceptors.response.use(function (response) {
   }
   return Promise.reject(error);
 });
+
+export const setToken = (token) => {
+  axios.defaults.headers.common["Authorization"] = "Bearer " + token;
+}
 
 export default API;
